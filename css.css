@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background-color: hsla(0, 0%, 100%, 0.75);
+    color: white;
+}
+.main{
+    margin:20px 30px 30px 30px; 
+    display: flex;
+}
+p{
+    padding: 15px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*design sedan part */
+.sedan{
+    background:  hsl(31, 77%, 52%);
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    padding: 30px;
+}
+.sedan .btnsedan{
+    border: 2px solid white;
+    align-self: flex-start;
+    border-radius: 50px;
+    font-weight: 100px;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10%;
+}
+.sedan .btnsedan:hover{
+    background-color: white;
+    color: tomato;
+}
+/*SUV design */
+.suvs{
+    background-color:  hsl(184, 100%, 22%);
+    padding: 30px;
+}
+.suvs .btnsuvs{
+    border:2px solid white;
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 50px;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    
+    margin-bottom: 10%;
+}
+.suvs .btnsuvs:hover{
+    background-color: white;
+    color: tomato;
+}
+/*LUXURY Design */
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 10px;
+    border-radius: 0 20px 20px 0;
+    padding: 30px;
+}
+.luxury a{
+    border: 2px solid white;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+.luxury a:hover{
+    background-color: white;
+    color: tomato;
+}
+@media only screen and (max-width:420px)
+{
+    body{
+        display:inline-flex;
+    }
+}
